@@ -24,8 +24,8 @@ tax = subtotal * 0.13
 total = tax + subtotal
 
 #Prints out the tax and total.
-print(f"\nSubtotal: ${subtotal:.2f}")
-print(f"Tax: ${tax:.2f}")
-print(f"Total: ${total:.2f}")
+print(f"\nSubtotal: ${subtotal:,.2f}")
+print(f"Tax: ${tax:,.2f}")
+print(f"Total: ${total:,.2f}")
     
 
